@@ -5,7 +5,7 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #2a2a2a;
-    background: #f6f1ea;
+    background: #f1f1f1;
     line-height: 1.7;
     margin: 0;
 }
@@ -19,17 +19,6 @@ body {
 .intro {
     text-align: center;
     padding: 36px 18px;
-}
-
-.tag {
-    display: inline-block;
-    margin-bottom: 14px;
-    padding: 7px 14px;
-    color: #9b111e;
-    background: rgba(155, 17, 30, 0.08);
-    border-radius: 999px;
-    font-weight: 600;
-    font-size: 14px;
 }
 
 h1 {
@@ -51,31 +40,29 @@ p {
     color: #3a3a3a;
 }
 
-.button {
-    display: inline-block;
-    margin-top: 14px;
-    padding: 12px 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    background: linear-gradient(135deg, #b11226, #7a0b18);
-    border-radius: 10px;
-    transition: all 0.25s ease;
-    box-shadow: 0 8px 18px rgba(177, 18, 38, 0.18);
-}
-
-.button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 22px rgba(177, 18, 38, 0.25);
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 40px;
+    max-width: 700px;
+    background: #f0f0f0;
+    border: 1px solid #dddee0;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
 
 .main-photo {
-    display: block;
-    width: min(600px, 100%);
-    margin: 28px auto 42px;
-    border-radius: 12px;
-    border: 4px solid #fff;
-    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
+    width: 220px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+}
+
+.main-photo:hover {
+    transform: scale(1.08) rotate(5deg);
 }
 
 .resources {
@@ -124,7 +111,7 @@ ul {
 .logo {
     font-weight: 700;
     font-size: 17px;
-    color: #9b111e;
+    color: #000000;
     letter-spacing: 0.3px;
 }
 
